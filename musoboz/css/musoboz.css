@@ -1,0 +1,87 @@
+nav {
+   float: left;
+    min-width: 150px;
+    width: 82%;
+}
+#logo {
+   float: left;
+    /*position: fixed;*/
+    left: 3px;
+    top: 3px;
+    border: groove antiquewhite 1px;
+}
+.divLeft {
+    float: left;
+
+}
+header {
+    min-width: 300px;
+}
+nav {
+    background-color: rebeccapurple;
+}
+header div {
+    width: 15%;
+}
+header ul {
+    float: right;
+    width: 85%;
+    text-align: justify;
+}
+header > nav > ul > li {
+    display: inline-block;
+    margin-left: 3%;
+}
+footer {
+    text-align: right;
+    position: fixed;
+    bottom: 5px;
+    width: 99%
+}
+header > nav > ul {
+    background-color: #f2f2f2;
+    transition: all .1s ease-out 1s;
+}
+header > nav > ul:hover {
+    background-color: #f7f7f7;
+}
+header > nav > ul > li > a {
+  color: darkblue;
+    transition: all 1s ease-out 1s;
+}
+
+header > nav > ul > li > a:hover {
+    color: rebeccapurple;
+    font-size: large;
+    transition: all .1s linear .2s;
+
+}
+
+li > ul {
+    position: absolute;
+    height: 0px;
+    width: 70px;
+    background-color: cadetblue;
+}
+li > ul > li {
+    visibility: hidden;
+    background-color: cadetblue;
+    transition: all .1s linear .2s;
+    height: 0px;
+    position: relative;
+    top: -3px;
+    left: -13px;
+    float: left;
+    min-width: 60px;
+}
+li:hover > ul {
+    width: 70px;
+}
+li:hover > ul > li {
+    visibility: visible;
+    height: auto;
+    display: inline-block;
+}
+body {
+    background-color: darkcyan;
+}
